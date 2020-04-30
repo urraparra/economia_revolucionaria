@@ -4,11 +4,11 @@
     background-size: cover;
     height: 10vh;
     overflow: hidden;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 
 }
 .altura{
-    height: 95vh;
+    /* height: 95vh; */
     width: 100vh;
 }
 .logos{
@@ -17,4 +17,14 @@
 }
 .fondoverde{
 background-image: url(../imagenes/dark-green-bg.png);
+}
+
+/*EMPIEZAN LOS MEDIAS QUERIES*/
+@media (min-width: 768px) {
+	/* #menuprincipal {
+    clear: inherit; } */
+
+	.bienvenidos {
+    background: url("../imagenes/86066dad-af26-426d-b901-2b6f3eaf39d0.jpg");
+    background-size: cover; } 
 }
