@@ -1,14 +1,10 @@
 /*la imagen de la pagina*/
-.bienvenidos{
-    background-image:url(../imagenes/86066dad-af26-426d-b901-2b6f3eaf39d0.jpg)  ;
-    background-size: cover;
-    height: 10vh;
-    overflow: hidden;
-    /* background-repeat: no-repeat; */
+.contacto{
+    background: rgb(233, 102, 54);
 
 }
 .altura{
-    /* height: 95vh; */
+     height: 100vh; /*si lo quitamos la segunda imagen del carrusel es mas alta y genera un pequeño bug en la animacion */
     width: 100vh;
 }
 .logos{
@@ -17,6 +13,7 @@
 }
 .fondoverde{
 background-image: url(../imagenes/dark-green-bg.png);
+
 }
 
 /*EMPIEZAN LOS MEDIAS QUERIES*/
