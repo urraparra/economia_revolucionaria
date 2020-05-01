@@ -1,4 +1,13 @@
 /*la imagen de la pagina*/
+div.row{
+    padding: 0px;
+    margin: 0px;
+}
+div.ćontainer{
+    padding: 0px;
+    margin: 0px;
+}
+
 .contacto{
     background: rgb(233, 102, 54);
 
