@@ -1,4 +1,12 @@
+/*fonts*/
+
 /*la imagen de la pagina*/
+
+.titulo{
+    
+    font-family: 'Holtwood One SC', serif;;
+
+}
 div.row{
     padding: 0px;
     margin: 0px;
@@ -13,10 +21,10 @@ div.ćontainer{
 
 }
 .navcolor{
-    background: #A0DC9C;
+    background: rgba(56, 136, 50,0.85);
 }
 .altura{
-     height: 100vh; /*si lo quitamos la segunda imagen del carrusel es mas alta y genera un pequeño bug en la animacion */
+     height: 95vh; /*si lo quitamos la segunda imagen del carrusel es mas alta y genera un pequeño bug en la animacion */
     width: 100vh;
 }
 .logos{
