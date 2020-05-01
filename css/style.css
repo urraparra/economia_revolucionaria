@@ -3,6 +3,9 @@
     background: rgb(233, 102, 54);
 
 }
+.navcolor{
+    background: #A0DC9C;
+}
 .altura{
      height: 100vh; /*si lo quitamos la segunda imagen del carrusel es mas alta y genera un pequeño bug en la animacion */
     width: 100vh;
